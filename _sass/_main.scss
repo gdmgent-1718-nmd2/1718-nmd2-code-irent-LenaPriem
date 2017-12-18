@@ -2,8 +2,27 @@
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
 
+body{
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.container{
+  padding-bottom:165px;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
 img{
   margin-bottom: 20px;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
 }
 
 nav{
@@ -11,23 +30,35 @@ nav{
 }
 
 footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding:15px;
   margin-top: 20px;
+  background-color: black;
+  color: white;
+  height:165px;
 }
 
 h3{
-  font-size: 14px;
+  font-size: 18px;
   font-weight:bold;
 }
 
 h4{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 h2{
-  font-size: 14px;
+  font-size: 18px;
   font-weight:bold;
 }
 
 p{
-  font-size: 12px;
+  font-size: 16px;
+}
+
+em{
+  font-size:12px;
 }
