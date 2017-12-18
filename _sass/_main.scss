@@ -1,3 +1,33 @@
 @import
   "bootstrap-variables",                  // See _bootstrap-variables.scss
   "../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+img{
+  margin-bottom: 20px;
+}
+
+nav{
+  margin-bottom: 20px;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+h3{
+  font-size: 14px;
+  font-weight:bold;
+}
+
+h4{
+  font-size: 12px;
+}
+
+h2{
+  font-size: 14px;
+  font-weight:bold;
+}
+
+p{
+  font-size: 12px;
+}

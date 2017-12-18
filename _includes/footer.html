@@ -1,5 +1,31 @@
-<nav class="navbar fixed-bottom navbar-light bg-light">
-{%- if site.show-style-guide %}
-    <a href="{{ site.baseurl }}{% link style-guide/index.md %}" class="btn">Style Guide</a>
-{%- endif %}
-</nav>
+<footer>
+    {%- if site.show-style-guide %}
+    <div class="container-fluid"></div>
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Menu</h3>
+            <h4>Home</h4>
+            <h4>Product</h4>
+            <h4>Contact</h4>
+            <h4>FAQ</h4>
+        </div>
+        <div class="col-sm-4">
+            <h3>Volg ons</h3>
+            <h4>Facebook</h4>
+            <h4>Twitter</h4>
+            <h4>Instagram</h4>
+        </div>
+        <div class="col-sm-4">
+            <h3>Contact</h3>
+            <h4>Karel de Wolfstraat 4
+                <br> 8200 Brugge
+                <br> België
+            </h4>
+            <h4>Info@wolf.be<br>
+            0478 56 45 32
+            </h4>
+        </div>
+    </div>
+    </div>
+    {%- endif %}
+</footer>
