@@ -41,6 +41,10 @@ footer{
   height:165px;
 }
 
+.navbar{
+  background-color: black;
+}
+
 h3{
   font-size: 18px;
   font-weight:bold;
@@ -61,4 +65,19 @@ p{
 
 em{
   font-size:12px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color:white;
+  font-weight:bold;
+  padding-right:15px;
+  font-size:30px;
+}
+
+#needs-validation{
+  padding-left:0px;
+  margin-bottom:15px;
 }

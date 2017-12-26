@@ -1,8 +1,8 @@
-- title: home
+- title: Home
   url: /index.html
-- title: product
+- title: Product
   url: /product.html
-- title: contact
+- title: Contact
   url: /contact.html
 - title: FAQ
   url: /faq.html

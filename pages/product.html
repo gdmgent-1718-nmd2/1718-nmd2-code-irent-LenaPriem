@@ -6,12 +6,13 @@ permalink: product
 title: Product
 ---
 <div class="container-fluid">
-    <div class="col-12"><h1>Gray</h1></div>
+    <div class="row col-12"><h1>Gray</h1></div>
         <div class="row">
             <div class="col-8">
                     <img src="img/europese_wolf.jpg" class="img-fluid" alt="Europsese wolf">
+                    <div class="top-right">€ 19,99/dag </div>
             </div>
-            <form class="col-sm-4" id="needs-validation" novalidate>
+            <form class="col-sm-4">
                 <h2>Extra producten</h2>
                 <div class="form-check form-check-inline custom-controls-stacked">
                         <label class="form-check-label">
@@ -37,11 +38,9 @@ title: Product
                             <p>Leiband (+ € 0,70)</p>
                         </label>
                 </div>
-                <div class="col-md-6">
-                        <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="Aantal dagen" required>
-                        <div class="invalid-feedback">
-                        </div>
-                      </div>
+                <div class="col-md-6" id="needs-validation" novalidate>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Aantal dagen" required>
+                </div>
                       <button class="btn btn-primary" href="winkelmand/winkelmand.html" role="button">Huren</button>
                       <p><em>Opgelet: opzettelijke verwondingen zullen aangeklaagd worden</em></p>
                 </form>
