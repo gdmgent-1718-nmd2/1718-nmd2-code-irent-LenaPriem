@@ -46,21 +46,21 @@ footer{
 }
 
 h3{
-  font-size: 18px;
+  font-size: 17px;
   font-weight:bold;
 }
 
 h4{
-  font-size: 16px;
+  font-size: 15px;
 }
 
 h2{
-  font-size: 18px;
+  font-size: 17px;
   font-weight:bold;
 }
 
 p{
-  font-size: 16px;
+  font-size: 15px;
 }
 
 em{
@@ -82,7 +82,38 @@ em{
   margin-bottom:15px;
 }
 
-#validationDefault01{
-  color: white;
-  background-color: rgb(54, 179, 54);
+.btn-primary{
+  background-color:rgb(177, 76, 9);
+  border-color: rgb(104, 46, 8);
+}
+
+.form-control{
+  background-color: rgb(201, 247, 132);
+}
+
+ul{
+  margin-left:auto;
+}
+
+.bag{
+  height:auto;
+  width:30px;
+  margin-left:5px;
+}
+
+.progress{
+  margin-bottom:15px;
+}
+
+.delete{
+  float:left;
+}
+
+hr{
+  border-color:lightgreen;
+}
+
+.btn-primary:hover{
+  background-color:green;
+  border-color:darkgreen;
 }

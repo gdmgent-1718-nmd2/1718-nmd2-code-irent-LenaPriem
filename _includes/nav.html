@@ -8,8 +8,8 @@
     </button>
   
     <!-- hoofdnavigatie -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto justify-content-end">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
           {% assign links = site.data.navigation %}
           {% for link in links %}
               {% assign class = nil %}
@@ -33,6 +33,7 @@
                   </li>
               {% endif %}
           {% endfor %}
+          <a href="winkelmand.html" title=""><img src="img/bag.png" class="img-responsive bag" alt="Shoppingbag"></a>
       </ul>
     </div>
   </nav>
