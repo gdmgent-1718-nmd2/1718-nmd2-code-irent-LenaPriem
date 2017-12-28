@@ -61,17 +61,35 @@ title: Winkelmand
                             <input type="text" class="form-control" id="validationCustom08" placeholder="Plaats*" required>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Telefoonnummer">
+                <div class="form-row">
+                    <div class="form-group col-12" id="needs-validation" novalidate>
+                        <input type="text" class="form-control" id="validationCustom09" placeholder="Telefoonnummer*" required>
                     </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
                 <hr></hr>
                 <h2>Betaling</h2>
-                <a class="btn btn-primary" href="bedanking.html" role="button">Betalen</a>
+                <div class="form-check-inline" id="validationCustom01" required>
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                      <p>Bancontact</p>
+                    </label>
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                      <p>Mastercard</p>
+                    </label>
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                        <p>Paypal</p>
+                      </label>
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <p>Visa</p>
+                    </label>
             </div>
+        <div>
+            <a class="btn btn-primary" href="bedanking.html" role="button">Betalen</a>
         </div>
     </form>
 </div>
