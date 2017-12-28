@@ -6,6 +6,7 @@ permalink: levering
 title: Winkelmand
 ---
 <div class="container-fluid">
+    <form id="needs-validation" novalidate>
         <div class="row">
             <div class="col-12">
                     <div class="progress">
@@ -15,18 +16,62 @@ title: Winkelmand
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6">
-                <button type="button" class="close delete" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <img src="img/gray.jpg" class="img-fluid delete" alt="Gray">
-            </div>
-            <div class="col-sm-6">
-                    <h2>Gray</h2>
-                <p>+ leiband <br>+ voeding</p>
+            <div class="col-sm-12">
+                <h2>Levering</h2>
+                <div class="form-check-inline" id="validationCustom01" required>
+                        <p>Aanhef*</p>
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                          <p>Mevrouw</p>
+                        </label>
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                          <p>Meneer</p>
+                        </label>
+                </div>
             </div>
         </div>
-        <hr></hr>
-        <h2>Betaling</h2>
-        <a class="btn btn-primary pull-right" href="bedanking.html" role="button">Betalen</a>
-    </div>
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <div class="form-group" id="needs-validation" novalidate>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Achternaam*" required>
+                    </div>
+                    <div class="form-group" id="needs-validation" novalidate>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="Voornaam*" required>
+                    </div>
+                    <div class="form-group" id="needs-validation" novalidate>
+                        <input type="email" class="form-control" id="validationCustom04" id="inputEmail4" placeholder="Email*" required>
+                    </div>
+                </div>
+            <div class="col-6">
+                    <div class="form-row">
+                        <div class="form-group col-10" id="needs-validation" novalidate>
+                            <input type="text" class="form-control" id="validationCustom05" placeholder="Straat*" required>
+                        </div>
+                        <div class="form-group col-2" id="needs-validation" novalidate>
+                            <input type="text" class="form-control" id="validationCustom06" placeholder="Nr*" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-4" id="needs-validation" novalidate>
+                            <input type="text" class="form-control" id="validationCustom07" placeholder="Postcode*" required>
+                        </div>
+                        <div class="form-group col-8" id="needs-validation" novalidate>
+                            <input type="text" class="form-control" id="validationCustom08" placeholder="Plaats*" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Telefoonnummer">
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr></hr>
+                <h2>Betaling</h2>
+                <a class="btn btn-primary" href="bedanking.html" role="button">Betalen</a>
+            </div>
+        </div>
+    </form>
+</div>
